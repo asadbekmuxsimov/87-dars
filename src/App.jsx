@@ -95,8 +95,8 @@ function App() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setRandom(Math.floor(Math.random() * 800))
-      setTop(Math.floor(Math.random() * 800))
+      setRandom(Math.floor(Math.random() * 600))
+      setTop(Math.floor(Math.random() * 600))
     }, 1000);
 
     setTimeout(() => {
